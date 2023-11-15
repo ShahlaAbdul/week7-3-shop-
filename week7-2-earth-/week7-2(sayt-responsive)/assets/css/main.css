@@ -1,0 +1,245 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#headerr {
+  background-image: url("	https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  height: 70vh;
+}
+#headerr #navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+#headerr #navbar .earth_store {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+#headerr #navbar ul {
+  display: flex;
+  gap: 30px;
+}
+#headerr #navbar ul a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+#headerr #navbar ul sup {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+#headerr .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
+  margin-top: 20px;
+}
+#headerr .contact button {
+  width: 160px;
+  border: none;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(32, 157, 39);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 60px;
+  justify-content: space-around;
+}
+.cards img {
+  display: flex;
+  width: 400px;
+  height: 450px;
+}
+.cards .text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  font-size: large;
+}
+.cards .text span {
+  color: gray;
+  font-weight: 10rem;
+}
+
+#section_3 {
+  width: 100%;
+  height: 50vh;
+  margin: 20px auto;
+}
+#section_3 .customer_Say {
+  margin: auto;
+  width: 80%;
+}
+#section_3 .customer_Say .texts {
+  display: flex;
+  justify-content: center;
+}
+#section_3 .customer_Say .text {
+  margin-top: 30px;
+  width: 100px auto;
+  width: 500px;
+  min-height: 80px;
+  gap: 20px;
+  margin: 0 auto;
+}
+#section_3 .customer_Say .text p {
+  font-size: 22px;
+  margin: 20px;
+}
+#section_3 .customer_Say .text img {
+  border-radius: 50%;
+}
+
+#section_4 {
+  background-image: url("https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Call-to-action.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+#section_4 .postcard {
+  padding-top: 25vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section_4 .postcard h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 20px;
+  font-size: 32px;
+  margin-top: 30px;
+}
+#section_4 .postcard h4 {
+  color: rgb(30, 181, 30);
+  font-size: 22px;
+  margin: 20px;
+}
+#section_4 .postcard a {
+  background-color: green;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#section_4 .postcard a:hover {
+  background-color: rgb(134, 198, 38);
+}
+
+#section_5 .payment {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+#navbar .earth_store {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+#navbar ul {
+  display: flex;
+  gap: 30px;
+  margin: 20px;
+}
+#navbar ul a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+#navbar ul sup {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+#navbar .hidden {
+  display: none;
+}
+@media only screen and (max-width: 720px) {
+  #navbar li {
+    display: none;
+  }
+}
+
+.postcards {
+  display: flex;
+  margin-top: 60px;
+  max-width: 100%;
+}
+.postcards .left {
+  width: 35%;
+  display: flex;
+  border-right: 2px solid grey;
+  justify-content: end;
+}
+.postcards .left .head {
+  display: flex;
+  flex-direction: column;
+}
+.postcards .left .head .search {
+  display: flex;
+  margin-right: 40px;
+}
+.postcards .left .head .search #search_box {
+  width: 250px;
+  height: 60px;
+  margin-right: 20px;
+  font-size: large;
+}
+.postcards .left .head .search i {
+  background-color: #74A849;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding: 12px;
+  font-size: 30px;
+  color: white;
+}
+.postcards .left .head .filter {
+  margin-top: 20px;
+}
+.postcards .left .head .filter .line p {
+  margin-bottom: 2px;
+  border: 2px solid black;
+  width: 200px;
+  height: 40px;
+}
+.postcards .right {
+  width: 30%;
+  padding-left: 60px;
+  border-right: 2px slid black;
+}
+.postcards .right .home_shop {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.postcards .right .home_shop p {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.postcards .right .home_shop span {
+  font-size: 60px;
+  color: #74A849;
+  font-weight: 400;
+}
+.postcards .right .cards .basliq {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */

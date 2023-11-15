@@ -1,0 +1,87 @@
+.postcards{
+    display: flex;
+    margin-top: 60px;
+    max-width: 100%;
+    .left{
+        width: 35%;
+        display: flex;
+        border-right: 2px solid grey;
+        justify-content: end;
+        .head{
+            display: flex;
+            flex-direction: column;
+            .search{
+                display: flex;
+                margin-right: 40px;
+                #search_box{
+                    width: 250px;
+                    height: 60px;
+                    margin-right: 20px;
+                    font-size: large;
+                   
+                    
+                } 
+              i{
+                background-color: #74A849;
+                width: 60px;
+                height: 60px;
+                text-align: center;
+                padding: 12px ;
+                font-size: 30px;
+                color: white;
+              } 
+              
+        
+            }
+            .filter{
+                margin-top: 20px;
+        
+                .line{
+                    p{
+                        margin-bottom: 2px;
+                        border: 2px solid black;
+                        width: 200px;
+                        height: 40px;
+                     }
+                        
+        
+                }
+              } 
+          
+                
+        }
+    
+    }
+
+    .right{
+        width: 30%;
+        padding-left: 60px;
+        border-right: 2px slid black;
+        .home_shop{
+            font-family: Arial, Helvetica, sans-serif;
+
+            p{
+                font-size: 18px;  
+                color: gray;
+                margin-bottom: 20px;
+            }
+            span{
+                font-size: 60px;
+                color: #74A849;
+                font-weight:400;
+            }
+
+        }
+        .cards{
+            .basliq{
+                display: flex;
+
+            }
+           
+        }
+        
+
+    }
+}
+
+
